@@ -1,0 +1,198 @@
+@import url('style-principal.css');
+
+
+
+.header-principal{
+
+    position: fixed;
+}
+
+
+
+
+
+.contenedor-grupos{
+
+    text-align: center;
+    color: white;
+    border-radius: .5em;
+    
+}
+
+.contenedor-grupo{
+
+    
+    background-color: black;
+    border-radius: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10em;
+    
+}
+
+
+
+.contenedor-partidos{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    
+}
+
+.info-partido{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+}
+
+.cont-vs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    gap: 10%;
+}
+
+.resultado{
+    
+    border-radius: .5em;
+    border-style: none;
+    text-align: center;
+    font-weight: bolder;
+    padding: .2em;
+    width: 100%;
+   
+    
+}
+
+.jornadas{
+    
+    
+    background-color: rgba(37, 5, 5, 0.877);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: .5em;
+    
+    
+    
+    
+}
+
+.jornadas > p, .titulo-jugada-final{
+
+    background-color: rgb(254, 195, 16);
+    width: 50%;
+    border-radius: .3em;
+    color: rgba(24, 22, 22, 0.815);
+    font-size: larger;
+    font-weight: bold;
+
+
+}
+
+.pais{
+
+    width: 50%;
+}
+
+.img-pais{
+
+    width: 20%;
+}
+
+.cont-band{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.titulo-jugada-final{
+     margin-top: 1em;
+    transform: translateX(50%);
+
+
+}
+
+select{
+
+    font-family: 'Varela Round', sans-serif;
+    padding: .2em;
+    border-radius: .4em;
+}
+
+.contenedor-apuesta{
+
+    background-color: black;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2em;
+    row-gap: 1em;
+    
+}
+
+.contenedor-encuesta{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+}
+
+.contenedor-apuesta, .botones{
+
+    border-radius: .5em;
+}
+
+.botones-jugada{
+
+    margin-top: 1em;
+    
+}
+
+.botones{
+
+    background-color: black;
+    padding: 1em;
+    
+}
+
+.botones button{
+
+    padding:1rem;
+    background-color: rgb(254, 195, 16);
+    border-radius: 1.1em;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: none;
+    margin-left: .9em;
+    transition: all .2s ease-in-out;
+
+}
+
+.botones button:hover{
+
+    background-color: rgb(190, 147, 15);
+    transform: scale(.9);
+}
+
+
+
+
+
