@@ -4,6 +4,19 @@ body {
   font-family: 'Varela Round', sans-serif;
 }
 
+.header-principal {
+  display: flex;
+  position: sticky;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  place-self: flex-start;
+  top: 0;
+  width: 100%;
+  background-color: rgb(6, 6, 43);
+  padding: 1em;
+}
+
 .info-usuario {
   display: flex;
   flex-direction: column;
@@ -38,7 +51,6 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-
   width: 80%;
 }
 
@@ -87,7 +99,7 @@ button:hover p {
 }
 
 .cont-opciones button:nth-child(1) {
-  background-image: url('../images/seleccion.avif');
+  background-image: url('../images/messi.jpg');
 }
 
 .cont-opciones button:nth-child(2) {

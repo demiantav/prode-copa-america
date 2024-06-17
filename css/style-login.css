@@ -28,7 +28,6 @@ video {
   width: clamp(300px, 60%, 470px);
   border-radius: 0.9em;
   text-align: center;
-  transform: translateY(-100px);
   color: white;
 }
 
@@ -66,7 +65,7 @@ a {
 
 .logos {
   display: flex;
-  position: sticky;
+  position: absolute;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;

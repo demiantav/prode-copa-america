@@ -1,31 +1,23 @@
 @import url('style-jugadas.css');
 
-.cont-resultado{
-
-   gap: 2em;
-
-    
+.cont-resultado {
+  gap: 2em;
 }
 
-.jornadas{
-
-    margin-top: 1rem;
+.jornadas {
+  margin-top: 1rem;
 }
 
-.cont-final{
-
-    display: flex;
-    justify-content: center;
-    gap: .2em;
-    font-style: oblique;
-    font-size: .8rem;
-    
+.cont-final {
+  display: flex;
+  justify-content: center;
+  gap: 0.2em;
+  font-style: oblique;
+  font-size: 0.8rem;
 }
 
-.marcador{
-      
-    display: flex;
-    flex-direction: row;
-    color: rgb(254, 195, 16);
-   
+.marcador {
+  display: flex;
+  flex-direction: row;
+  color: rgb(254, 195, 16);
 }
