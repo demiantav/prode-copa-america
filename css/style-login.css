@@ -73,6 +73,10 @@ a {
   top: 0;
   width: 100%;
   background-color: rgb(6, 6, 43);
+
+  img {
+    margin-inline-start: 2rem;
+  }
 }
 
 .logo-solvens,
